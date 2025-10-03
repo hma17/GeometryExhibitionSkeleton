@@ -1,5 +1,5 @@
 //
-//  threeDListView.swift
+//  UnitTwoView.swift
 //  GeometryExhibition
 //
 //  Created by Huda Aldadah on 9/19/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct threeDListView: View {
+struct UnitTwoView: View {
     var body: some View {
-        Text("Three d list view")
+        Text("List View of Unit 2 Concepts")
     }
 }
 
 #Preview {
-    threeDListView()
+    UnitTwoView()
 }

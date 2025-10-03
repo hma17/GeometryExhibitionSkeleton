@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct transformationsView: View {
+struct translationsView: View {
     @State private var isExpandedStepOne: Bool = false
     @State private var isExpandedStepTwo: Bool = false
     @State private var isExpandedStepThree: Bool = false
@@ -20,7 +20,6 @@ struct transformationsView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                transformationsIntroView
                 translationsContentView
                 Spacer()
             }
@@ -28,39 +27,7 @@ struct transformationsView: View {
             .navigationTitle("Transformations")
         }
     }
-    
-    var transformationsIntroView: some View {
-        VStack(alignment: .leading, spacing: 8,) {
-            Text("What is a transformation?")
-                .fontDesign(.serif)
-                .italic()
-                .bold()
-                .font(.title2)
-            Text("A transformation is a change to a figure in a coordinate plane. This change can involve:")
-            HStack(alignment: .top) {
-                Text("•")
-                    .font(.body)
-                Text("Translations")
-            }
-            HStack(alignment: .top) {
-                Text("•")
-                    .font(.body)
-                Text("Rotations")
-            }
-            HStack(alignment: .top) {
-                Text("•")
-                    .font(.body)
-                Text("Reflections")
-            }
-            HStack(alignment: .top) {
-                Text("•")
-                    .font(.body)
-                Text("Dilations")
-            }
-        }
-    }
-    
-    
+        
     var translationsContentView: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Translations: (sliding) the figure")
@@ -136,5 +103,5 @@ struct transformationsView: View {
 }
 
 #Preview {
-    transformationsView()
+    translationsView()
 }
