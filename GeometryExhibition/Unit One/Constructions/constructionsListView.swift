@@ -12,7 +12,7 @@ struct constructionsListView: View {
         NavigationView {
             List {
                 NavigationLink("Perpindicular Bisector") {
-                    perpindicularBisectorsView()
+                    perpendicularBisectorsView()
                 }
                 NavigationLink("Equilateral Triangle") {
                     equilateralTrianglesView()

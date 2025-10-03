@@ -33,7 +33,7 @@ struct HomeView: View {
                     //TODO: Navigate to Unit 7 view
                 }
                 NavigationLink("Unit 8") {
-                    //TODO: Navigate to Unit 8 view
+                    //TODO: Navigate to Unit 3 view
                 }
             }
             .padding()
